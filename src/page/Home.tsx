@@ -24,6 +24,7 @@ const Wrapper = styled.div`
     justify-content: space-between;
 `
 const Circle1 = styled.div`
+z-index: 4000;
     position: absolute;
     top: 40%;
     left: -120px;
