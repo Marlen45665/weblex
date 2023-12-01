@@ -1,0 +1,64 @@
+.banner{
+    max-width: 362px;
+    color: #E4E5EA;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.weblex{
+    background: linear-gradient(rgba(252, 176, 69, 1), rgba(255, 63, 120, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.info{
+    max-width: 275px;
+    margin-top: 30px;
+    color: #E4E5EA;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.product-banner{
+    width: 291px;
+    color: #E4E5EA;
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.product-banner span{
+    background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+@media (max-width: 750px) {
+    .banner, .weblex{
+        font-size: 36px;
+    }
+    .info{
+        margin-top: 15px;
+    }
+    .product-banner{
+        text-align: left;
+    }
+}
